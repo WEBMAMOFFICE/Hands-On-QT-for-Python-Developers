@@ -3,7 +3,7 @@ import QtQuick.Window 2.2 as UQml // Our Window as named.
 import "qmls" as Uqmls            // Own created Button, Rectangle, etc.
 
 UQml.Window {                  // Window object.
-    visible: true              // Set visibility property.
+    visible: true              // Set visible property.
     width: 350                 // Set width.
     height: 590                // Set height.
     title: qsTr("First Qml")   // Set title text.
